@@ -1,15 +1,16 @@
-import { Text, View } from "react-native";
+import React from 'react';
+import {View} from 'react-native';
+import Greeting, {styles} from '@/components/Greeting';
 
-export default function Index() {
+const LotsOfGreetings = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+    <View style={[styles.center, {top: 50}]}>
+      <Greeting name="Aashman" />
+      <Greeting name="Rishi" />
+      <Greeting name="Dylan" />
+      <Greeting name="Abhimanyu" />
     </View>
   );
-}
+};
+
+export default LotsOfGreetings;
