@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
-import {StyleSheet, TouchableOpacity, Text, View} from 'react-native';
+import React from 'react';
+import {View} from 'react-native';
 import {styles} from '@/components/Styles';
 import ClickCounter from '@/components/ClickCounter';
 
 const Click = () => {
     return (
-        <View style={styles.center}>
+        <View style={styles.container}>
             <ClickCounter />
         </View>
     )

@@ -14,8 +14,8 @@ export const styles = StyleSheet.create({
   },
   button: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#111111',
     padding: 10,
     marginBottom: 10,
-  },
+  }
 });
