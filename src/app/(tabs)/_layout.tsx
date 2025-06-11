@@ -55,6 +55,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="translate" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="react"
+        options={{
+          title: 'React Info',
+          tabBarIcon: ({ color }) => <FontAwesome6 size={28} name="react" color={color} />
+        }}
+      />
     </Tabs>
   );
 }
