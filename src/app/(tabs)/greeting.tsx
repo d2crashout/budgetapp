@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import Greeting from '@/components/Greeting';
-import { styles } from '@/components/Styles';
+import styles from '@/components/Styles';
 
 const LotsOfGreetings = () => {
   return (

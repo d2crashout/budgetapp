@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { TouchableOpacity, Text, View, Platform } from 'react-native';
-import { styles } from '@/components/Styles';
+import styles from '@/components/Styles';
 
 type State = {
   count: number,

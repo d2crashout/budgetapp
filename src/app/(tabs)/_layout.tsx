@@ -48,6 +48,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="cursorarrow.click" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="translator"
+        options={{
+          title: 'Translate',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="translate" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
